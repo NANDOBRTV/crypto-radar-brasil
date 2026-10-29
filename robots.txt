@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
+
 Sitemap: https://nandobrtv.github.io/criptoradar-brasil/sitemap.xml
