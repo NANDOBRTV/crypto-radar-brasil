@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://nandobrtv.github.io/criptoradar-brasil/</loc></url>
+  <url><loc>https://nandobrtv.github.io/criptoradar-brasil/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://nandobrtv.github.io/criptoradar-brasil/sobre.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://nandobrtv.github.io/criptoradar-brasil/privacidade.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://nandobrtv.github.io/criptoradar-brasil/termos.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://nandobrtv.github.io/criptoradar-brasil/contato.html</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://nandobrtv.github.io/criptoradar-brasil/artigos/como-funciona-bitcoin.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nandobrtv.github.io/criptoradar-brasil/artigos/seguranca-cripto.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://nandobrtv.github.io/criptoradar-brasil/artigos/riscos-criptoativos.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>
