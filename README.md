@@ -1,25 +1,51 @@
 # CriptoRadar Brasil
 
-Site estático em português com cotações indicativas de BTC, ETH, SOL, BNB e XRP em reais, conversor BTC/BRL e conteúdo educativo. Feito para hospedagem estática gratuita.
+Blog estático em português sobre criptoativos, com cotações indicativas em BRL, calculadora BTC/BRL, artigos educativos, páginas institucionais e arquivos básicos de SEO. Projetado para hospedagem estática gratuita e administração pelo navegador do celular.
 
-## Publicar pelo GitHub Pages
-1. Abra **Settings** deste repositório.
-2. Entre em **Pages**.
-3. Em **Build and deployment**, selecione **Deploy from a branch**.
-4. Selecione a branch `main` e a pasta `/ (root)), depois clique em **Save**.
-5. Aguarde a publicação. O endereço esperado será `https://nandobrtv.github.io/criptoradar-brasil/`; confirme o endereço e o status na própria página Pages.
+## Recursos
 
-## Cloudflare Pages
-A tentativa de criar o projeto pelo acesso Cloudflare conectado retornou erro HTTP 401 `8000011`, relacionado à instalação Git do Cloudflare Pages. Nenhum projeto nem deploy Cloudflare foi confirmado. Para tentar novamente, abra Cloudflare > Workers & Pages e reconecte/reinstale a integração GitHub, ou publique pelo GitHub Pages usando os passos acima.
+- Cotações indicativas de BTC, ETH, SOL, BNB e XRP pela API pública da CoinGecko.
+- Calculadora de Bitcoin para reais com atualização no navegador.
+- Mensagens de erro quando a API falha ou limita as consultas.
+- Intervalo mínimo de 60 segundos entre solicitações manuais para reduzir chamadas repetidas.
+- Três artigos individuais: funcionamento do Bitcoin, segurança e riscos.
+- Páginas Sobre, Contato, Privacidade e Termos de Uso.
+- Metadados SEO, canonical, Open Graph, favicon, robots.txt e sitemap.xml.
+- Layout responsivo e sem dependências de build.
 
-## Dados de mercado
-A página consulta a API pública CoinGecko diretamente do navegador. Não requer chave nesta versão, mas está sujeita a limites, disponibilidade e termos do fornecedor. Há intervalo mínimo de 60 segundos entre consultas manuais. Se a API estiver indisponível, a página informa que não conseguiu carregar os preços.
+## Publicação pelo GitHub Pages
 
-## Antes de monetizar
-- O espaço de publicidade ainda não contém anúncios reais.
-- Solicite aprovação na rede de anúncios e só depois insira o código oficial fornecido pela sua conta.
-- Atualize a política de privacidade e adicione um canal de contato real antes de submeter o site para análise.
-- Cotações são indicativas; não constituem recomendação financeira.
+1. Abra [Settings → Pages](https://github.com/NANDOBRTV/criptoradar-brasil/settings/pages).
+2. Em **Build and deployment**, escolha **Deploy from a branch**.
+3. Selecione a branch `main` e a pasta `/(root)`, e salve.
+4. Aguarde a publicação.
+5. Confirme o status e a URL exibida na página Pages. O endereço esperado é https://nandobrtv.github.io/criptoradar-brasil/.
 
-## Arquitetura
-A versão inicial está concentrada em `index.html`, incluindo CSS e JavaScript para facilitar a publicação inicial. Nenhuma chave privada ou segredo é necessário.
+O endereço acima é o esperado, não uma garantia de que o deploy esteja ativo. É necessário conferir o status no GitHub Pages.
+
+## API e limites
+
+A página consulta a API pública CoinGecko diretamente do navegador. A API pode limitar solicitações, mudar os termos ou ficar indisponível. Não há chave privada no código. Se houver erro, tente novamente depois; não automatize consultas frequentes.
+
+## Monetização: antes de ativar anúncios
+
+O espaço publicitário da página inicial é apenas um placeholder. Não há IDs nem código de anúncios de uma rede. Para monetizar:
+
+1. Cadastre o site na rede escolhida e aguarde aprovação.
+2. Adicione somente o código oficial fornecido pela conta aprovada.
+3. Atualize a política de privacidade e implemente o mecanismo de consentimento exigido para a região e a rede.
+4. Confira as políticas da rede, conteúdo original, navegação, desempenho e propriedade do site.
+5. Não clique nos próprios anúncios nem incentive cliques.
+
+Nenhuma conta de anúncios, aprovação, receita ou pagamento é configurado automaticamente por este repositório.
+
+## Páginas
+
+- `index.html`: início, cotações e calculadora.
+- `artigos/`: conteúdo educativo individual.
+- `sobre.html`, `contato.html`, `privacidade.html`, `termos.html`: páginas institucionais.
+- `robots.txt`, `sitemap.xml`, `favicon.svg`: descoberta e identidade do site.
+
+## Nota editorial
+
+Conteúdo informativo, sem aconselhamento financeiro individual ou promessa de rentabilidade. Cotações são indicativas e podem divergir de preços de negociação. Revise periodicamente os artigos, links e informações legais.
